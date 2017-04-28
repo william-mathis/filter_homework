@@ -13,7 +13,7 @@ $(document).ready(function () {
 		if (filter === "reset") {
 			console.log("hello world");
 			$(".item").removeClass("active");
-			$("button").removeClass("clicked");
+			$("button").removeClass("clicked clicked2");
 
 			// } else if (filter === "all") {
 			// 	console.log("yes");
